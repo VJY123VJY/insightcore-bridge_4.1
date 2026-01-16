@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS scores (
+    actor TEXT PRIMARY KEY,
+    score INTEGER NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS rate_limits (
+    actor TEXT PRIMARY KEY,
+    count INTEGER NOT NULL
+);
